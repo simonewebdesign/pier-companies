@@ -40,7 +40,7 @@ if (!empty($old_input)) {
     {{ Form::text('name', $company->name) }}
   </div>
   <div>
-    {{ Form::label('description', 'Description') }}<br>
+    {{ Form::label('description', 'Description') }} <a class="loadTinyMCE">(vai alla modalita' avanzata)</a><br>
     {{ Form::textarea('description', $company->description) }}
   </div>
   <div>

@@ -7,12 +7,14 @@
 </head>
 <body>
 
-  @if ( Session::get('notice') )
-  <p id="notice">{{ Session::get('notice') }}</p>
-  @endif
+@if ( Session::get('notice') )
+<p id="notice">{{ Session::get('notice') }}</p>
+@endif
 
-  @yield('content')
+@yield('content')
 
-  {{ HTML::script(URL::to_asset('js/script.js')) }}
+{{ HTML::script(URL::to_asset('js/script.js')) }}
+{{ HTML::script(url("../vendor/tinymce_3.5.8/jscripts/tiny_mce/tiny_mce.js")) }}
+
 </body>
 </html>
