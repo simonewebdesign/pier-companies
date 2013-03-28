@@ -1,3 +1,0 @@
-[submodule "vendor/tinymce"]
-	path = vendor/tinymce
-	url = https://github.com/tinymce/tinymce.git
