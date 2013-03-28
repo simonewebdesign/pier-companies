@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ Config::get('application.language') }}">
 <head>
   <meta charset="UTF-8">
-  <title>Laravel-REST</title>
+  <title>Gestione installatori di fiducia - Pierucci Autoricambi</title>
   {{ HTML::style("css/scaffolds.css") }}
 </head>
 <body>
